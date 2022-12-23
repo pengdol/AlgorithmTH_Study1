@@ -18,12 +18,12 @@ int main() {
 	average=sum/person;
 
 	if(average>=80){
-		printf("hard");
+		printf("easy");
 	}
 	else if(average>=60){
 		printf("normal");
 	}
 	else{
-		printf("easy");
+		printf("hard");
 	}
 }
